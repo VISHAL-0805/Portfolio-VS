@@ -4,6 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import DEEPSORT from "../../Assets/Projects/DEEPSORT.jpg";
+import PhishGuard from "../../Assets/Projects/PhishGuard.jpg";
+import CSA from "../../Assets/Projects/CSA.jpg";
+import Music from "../../Assets/Projects/Music.jpg";
+import LCD from "../../Assets/Projects/LCD.jpg";
+
+
 
 // You can replace these placeholders with actual images for your projects
 
@@ -22,7 +28,7 @@ function Projects() {
           {/* PhishGuard AI */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DEEPSORT}
+              imgPath={PhishGuard}
               isBlog={false}
               title="PhishGuard AI"
               description="Engineered an AI-powered phishing detection and summarization system using BiLSTM and BERT, achieving 97.22% accuracy on 149K+ emails. Integrated SPF/DKIM/DMARC checks for authenticity and explainable AI for analyst efficiency."
@@ -33,7 +39,7 @@ function Projects() {
           {/* Sentiment Analysis */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DEEPSORT}
+              imgPath={CSA}
               isBlog={false}
               title="Customer Sentiment Analysis"
               description="Developed a sentiment analysis system for restaurant reviews with RandomForest, achieving 89% accuracy. Built dashboards using Matplotlib/Seaborn and deployed an interactive web app with Flask, HTML, and CSS."
@@ -44,7 +50,7 @@ function Projects() {
           {/* Music Genre Classification */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DEEPSORT}
+              imgPath={Music}
               isBlog={false}
               title="Music Genre Classification"
               description="Designed a system leveraging CNN and KNN for audio-based genre classification. Achieved 98% training accuracy (CNN) and 73% test accuracy (KNN). Published research at ISMS 2023 under Dr. Tanupriya Choudhury."
@@ -55,7 +61,7 @@ function Projects() {
           {/* Lung Cancer Detection */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DEEPSORT}
+              imgPath={LCD}
               isBlog={false}
               title="Lung Cancer Detection"
               description="Built a CNN-based system to classify lung X-rays into normal, benign, and malignant. Enhanced accuracy through preprocessing, augmentation, and hyperparameter tuning, supporting early cancer detection."
