@@ -1,46 +1,20 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { DiPython, DiJava, DiGit } from "react-icons/di";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
   SiTensorflow,
-  SiPandas,
   SiPytorch,
-  SiSolidity,
+  SiOpencv,
+  SiScikitlearn,
+  SiPandas,
+  SiNumpy,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -51,22 +25,28 @@ function Techstack() {
         <SiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiOpencv />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPandas />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiGit />
       </Col>
     </Row>
   );
