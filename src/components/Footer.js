@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -33,7 +31,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="www.linkedin.com/in/arka-ghosh-aaab5a270"
+                href="www.linkedin.com/in/vishal-singh-upes"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
