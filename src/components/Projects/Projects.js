@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import GAIT from "../../Assets/Projects/GAIT.png";
-import ETS from "../../Assets/Projects/ETS.png";
+
 import DEEPSORT from "../../Assets/Projects/DEEPSORT.jpg";
-import PTS from "../../Assets/Projects/PTS.png";
 
 // You can replace these placeholders with actual images for your projects
 
