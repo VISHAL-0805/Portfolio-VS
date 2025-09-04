@@ -4,8 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+
+  AiOutlineMail ,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -94,7 +94,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram /> {/* replace with mail/other icon */}
+                  <AiOutlineMail /> {/* replace with mail/other icon */}
                 </a>
               </li>
             </ul>
